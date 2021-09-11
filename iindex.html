@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Counter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-bg">
+                        <img src="1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                    <span>About Me</span>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quae veniam accusantium tempora.
+                    </h2>
+                </div>
+                    <div class="about-content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla inventore voluptates aliquam accusantium libero excepturi sapiente eos ea deleniti. Nisi aut unde molestias ratione esse laboriosam possimus maxime sint ea quaerat obcaecati sit repellat cumque expedita iure hic, voluptates provident.</p>
+                        <br>
+                        <a href="" class="default-btn">Download Resume</a>
+                    </div>
+                    <br>
+                    <div class="social">
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-youtube"></i>
+                        <i class="fa fa-github"></i>
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="col-lg-2">
+                    <div class="counter-content">
+                        <div class="counter-item">
+                            <h3>Projects <span class="counter">888</span></h3>
+                        </div>
+                        <div class="counter-item">
+                            <h3>Achivements <span class="counter">9888</span></h3>
+                        </div>
+                        <div class="counter-item">
+                            <h3>Medals <span class="counter">7888</span></h3>
+                        </div>
+                        <div class="counter-item">
+                            <h3>Awards <span class="counter">6888</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" ></script>
+
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    </script>
+    
+</body>
+</html>
